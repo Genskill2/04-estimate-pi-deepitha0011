@@ -32,9 +32,9 @@ pi=0;
 else
 {
 for (int i=1;i<=n;i++){
-  prod=prod*((4*pow(i,2))/(4*pow(i,2)-1));
+  prod=*((4*i*i)/(4*i*i-1));
 }
-pi=prod;
+pi=2*prod;
 }
 return pi;
 }
