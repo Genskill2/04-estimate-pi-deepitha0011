@@ -33,7 +33,8 @@ pi=0;
 else
 {
 for (int i=1;i<=n;i++){
-  prod=prod*((4*i*i)/(4*i*i-1));
+  float s=4*i*i;
+  prod=prod*(s/s-1);
 }
 pi=2*prod;
 }
